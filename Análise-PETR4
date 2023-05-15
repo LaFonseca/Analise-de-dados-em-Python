@@ -34,7 +34,7 @@ lower_bound_2 = p(x) - 2*std
 ######## Plota a figura com a linha de tendência e as linhas de desvio padrão
 fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(16, 6))
 
-######### Gráfico do ativo
+######### Gráfico do ativo com as linhas de tendência e desvios
 ax1.set_title('Cotação da PETR4')
 ax1.set_ylabel('Preço (R$)')
 ax1.grid(True)
